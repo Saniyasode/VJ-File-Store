@@ -1,4 +1,4 @@
-# Don't Remove Credit Tg - @VJ_Botz
+hu# Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -94,9 +94,9 @@ class Var(object):
     FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL',False))
     if HAS_SSL:
-        URL = ""
+        URL = "https://planned-valene-teckivek.koyeb.app/"
     else:
-        URL = ""
+        URL = "https://planned-valene-teckivek.koyeb.app/"
 
 
 
